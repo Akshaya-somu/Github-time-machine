@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: github-time-machine
+  datasource:
+    url: jdbc:postgresql://localhost:5432/github_time_machine
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: false
+
+server:
+  port: 8080
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+
+app:
+  git:
+    base-directory: ./git-repos
+    default-branch: main
