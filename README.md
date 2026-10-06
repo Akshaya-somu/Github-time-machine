@@ -1,5 +1,5 @@
 ````markdown
-# ⏳ GitHub Time Machine
+⏳ GitHub Time Machine
 
 > **Explore how a GitHub repository evolved over time — commits, contributors, files, collaboration, and historical snapshots in one interactive dashboard.**
 
@@ -9,7 +9,7 @@ Built with **JGit, Spring Boot, PostgreSQL, React, TypeScript, Recharts, and Rea
 
 ---
 
-## 🚀 Overview
+🚀 Overview
 
 GitHub repositories contain years of development history, but understanding that history often requires manually navigating commits, contributors, files, and changes.
 
@@ -25,16 +25,16 @@ GitHub Time Machine brings this information together into a single dashboard to 
 
 ---
 
-## ✨ Features
+✨ Features
 
-### 📦 Repository Analysis
+📦 Repository Analysis
 
 - Analyze any public GitHub repository
 - Clone and inspect complete Git history
 - Extract commits, authors, file changes, and statistics
 - Preserve the complete repository history
 
-### ⏱️ Repository Timeline
+⏱️ Repository Timeline
 
 - Chronological commit timeline
 - Commit timestamps and authors
@@ -42,7 +42,7 @@ GitHub Time Machine brings this information together into a single dashboard to 
 - Files changed per commit
 - Cumulative repository statistics
 
-### 👨‍💻 Contributor Intelligence
+👨‍💻 Contributor Intelligence
 
 - Contributor summaries
 - Commit statistics
@@ -51,13 +51,13 @@ GitHub Time Machine brings this information together into a single dashboard to 
 - Contributor search
 - Contributor collaboration graph
 
-### 📁 File Change Explorer
+📁 File Change Explorer
 
 - Explore repository file changes
 - View additions, deletions, and change types
 - Inspect individual file history
 
-### 🔍 Commit Explorer
+🔍 Commit Explorer
 
 - Full commit hash
 - Author and email
@@ -66,7 +66,7 @@ GitHub Time Machine brings this information together into a single dashboard to 
 - Parent commits
 - File-level changes
 
-### ⏳ Time Travel
+⏳ Time Travel
 
 Select a historical commit and explore the repository's state at that point in its evolution.
 
@@ -78,7 +78,7 @@ View:
 - Cumulative additions
 - Cumulative deletions
 
-### 📊 Visual Analytics
+📊 Visual Analytics
 
 - Repository evolution timeline
 - Additions vs. deletions charts
@@ -86,7 +86,7 @@ View:
 - Historical activity trends
 - Time-based repository statistics
 
-### ⚡ Large Repository Support
+⚡ Large Repository Support
 
 The application is designed to handle repositories containing tens of thousands of commits and hundreds of thousands of file changes.
 
@@ -104,7 +104,7 @@ Large-repository safeguards include:
 
 ---
 
-## 🏗️ Architecture
+🏗️ Architecture
 
 ```text
                          ┌──────────────────────────┐
@@ -144,9 +144,9 @@ Large-repository safeguards include:
 
 ---
 
-## 🛠️ Technology Stack
+🛠️ Technology Stack
 
-### Backend
+Backend
 
 - **Java 21**
 - **Spring Boot 3.3.3**
@@ -160,7 +160,7 @@ Large-repository safeguards include:
 - Springdoc OpenAPI
 - Maven
 
-### Frontend
+Frontend
 
 - **React 19**
 - **TypeScript**
@@ -172,7 +172,7 @@ Large-repository safeguards include:
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```text
 github-time-machine/
@@ -208,11 +208,11 @@ github-time-machine/
 
 ---
 
-## ⚡ Large Repository Engineering
+⚡ Large Repository Engineering
 
 GitHub Time Machine is designed to preserve and analyze complete repository history without truncating large repositories.
 
-### Backend optimizations
+ **Backend optimizations**
 
 - Streamed Git history processing
 - JGit `setNoCheckout(true)`
@@ -224,7 +224,7 @@ GitHub Time Machine is designed to preserve and analyze complete repository hist
 - Efficient contributor aggregation
 - Open-EntityManager-in-View disabled
 
-### Frontend optimizations
+ **Frontend optimizations**
 
 - Bounded timeline rendering
 - Progressive loading
@@ -238,7 +238,7 @@ GitHub Time Machine is designed to preserve and analyze complete repository hist
 
 ---
 
-## 📊 Verified Large Repository
+ 📊 Verified Large Repository
 
 The application has been successfully tested with:
 
@@ -259,7 +259,7 @@ Maximum file path:        271 characters
 
 ---
 
-## 🔁 Idempotent Analysis
+🔁 Idempotent Analysis
 
 Repeated analysis of the same repository does **not create duplicate records**.
 
@@ -272,7 +272,7 @@ File Change → repository + commit + file path
 Contributor → repository + email
 ```
 
-### Verified repeat analysis
+**Verified repeat analysis**
 
 ```text
                  Before       After
@@ -289,7 +289,7 @@ Contributors      1,675        1,675
 
 ---
 
-## 🧪 Testing
+🧪 Testing
 
 Run the backend tests:
 
@@ -315,9 +315,9 @@ npm run build
 
 ---
 
-## ▶️ Getting Started
+▶️ Getting Started
 
-### Prerequisites
+**Prerequisites**
 
 - JDK 21
 - Maven 3.9+
